@@ -1,5 +1,5 @@
-body { background-color: #000; color: #fff; font-family: Orbitron, sans-serif; }
 
+body { background-color: #000; color: #fff; font-family: Orbitron, sans-serif; }
 
 .glow-title {
   font-size: 2.5rem;
@@ -52,8 +52,6 @@ body { background-color: #000; color: #fff; font-family: Orbitron, sans-serif; }
   margin: 10px 0;
 }
 
-
-
 .ebook-box {
   background: rgba(0, 0, 0, 0.6);
   border: 2px solid #00ffff88;
@@ -65,8 +63,6 @@ body { background-color: #000; color: #fff; font-family: Orbitron, sans-serif; }
   box-shadow: 0 0 20px rgba(0,255,255,0.3);
   backdrop-filter: blur(6px);
 }
-
-
 
 #orb {
   width: 100px;
@@ -98,7 +94,6 @@ body { background-color: #000; color: #fff; font-family: Orbitron, sans-serif; }
   100% { transform: scale(1); }
 }
 
-
 #subtitles {
     max-width: 90%;
     min-height: 200px;
@@ -122,8 +117,6 @@ body { background-color: #000; color: #fff; font-family: Orbitron, sans-serif; }
     margin-top: 20px;
 }
 
-
-/* KEYFRAMES */
 @keyframes glowIdle {
   0% { box-shadow: 0 0 10px rgba(0,255,255,0.3); }
   50% { box-shadow: 0 0 20px rgba(0,255,255,0.6); }
@@ -142,7 +135,6 @@ body { background-color: #000; color: #fff; font-family: Orbitron, sans-serif; }
   100% { transform: scale(1); box-shadow: 0 0 20px rgba(0,255,100,0.4); }
 }
 
-/* ORB STYLING */
 #orb {
   width: 120px;
   height: 120px;
@@ -221,8 +213,6 @@ body { background-color: #000; color: #fff; font-family: Orbitron, sans-serif; }
   cursor: pointer;
 }
 
-
-/* Unified glowing button style */
 button {
   background: linear-gradient(90deg, #8F00FF, #5500AA);
   color: white;
@@ -239,7 +229,6 @@ button:hover {
   transform: scale(1.05);
 }
 
-/* Glowing effect on tier-card hover */
 .tier-card:hover {
   transform: scale(1.06);
   border-color: #8F00FF;
